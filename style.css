@@ -1,0 +1,43 @@
+.container{
+    background-color: rgb(250, 227, 231);
+    padding-bottom: 20px;
+    min-height: 100vh;
+}
+
+.headName{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#msg{
+    text-align: center;
+    color: black;
+    display: none;
+    margin-bottom: 20px;
+}
+
+#items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.singleItem{
+    cursor: pointer;
+}
+
+#details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#details .card {
+    max-width: 400px;
+}
+#details .card img {
+    max-width: 100%;
+    height: auto;
+}
