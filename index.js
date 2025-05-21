@@ -762,7 +762,26 @@ const myRecipes= [
             "5. Cook until golden brown on both sides",
             "6. Dust with powdered sugar before serving."
         ]
-    }
+    },
+    {
+        idMeal : 42,
+        strMeal: "Bagels",
+        strMealThumb: "images/bagels.jpg",
+        strArea: "Germany",
+        strCategory: "Bread",
+        strIngridient1: "300gr Flour",
+        strIngridient2: "3gr yeast",
+        strIngridient3: "24gr sugar",
+        strIngridient4: "6gr salt",
+        strIngridient5: "190ml cold milk",
+        steps: [
+            "1. in a bowl, mix all of the ingridients and knead the dough",
+            "2. cover it and let in proof for 30 mins - 1 hour",
+            "3. shape into a bagel form",
+            "4. boil each side for 20seconds",
+            "5. airfry the top side for 12 minutes, flip it then airfry for 5 minutes"
+        ]
+    }        
 ];
 
 document.getElementById("button").addEventListener("click", () => {
